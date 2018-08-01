@@ -1,7 +1,7 @@
 {
   "name": "joi-phone-number-extensions",
   "description": "Joi extension for dates",
-  "version": "1.0.1",
+  "version": "1.1.0",
   "homepage": "https://github.com/tepez/joi-phone-number-extensions",
   "repository": "git://github.com/tepez/joi-phone-number-extensions",
   "main": "lib/index.js",
@@ -29,7 +29,8 @@
     "joi-jasmine-helpers": "^0.1.0"
   },
   "scripts": {
-    "test": "node node_modules/jasmine/bin/jasmine.js"
+    "test": "node node_modules/jasmine/bin/jasmine.js",
+    "update": "np --no-publish --no-yarn"
   },
   "license": "MIT"
 }
